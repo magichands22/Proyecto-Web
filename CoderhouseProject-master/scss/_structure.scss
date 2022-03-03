@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+// Landing front
+
+.front {
+    padding: 50px;
+}
+
+.text {
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+    .text {
+        padding-bottom: 60px;
+        padding-top: 20px;
+    }
+}
+
+.title__front {
+    font-size: 34px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.btn-join {
+    text-decoration: none;
+    padding: 2px 10px 2px 10px;
+    border-radius: 5px;
+}
+
+.imagen__front {
+    max-height: 400px;
+    padding-left: 150px;
+}
+
+// Landing Fullstack
+
+.full {
+    padding: 50px;
+}
+
+
+.title__full {
+    font-size: 34px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.imagen__full {
+    max-height: 400px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+// Landing Salesforce
+
+.salesforce {
+    padding: 50px;
+}
+
+
+.title__salesforce {
+    font-size: 34px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.imagen__salesforce {
+    max-height: 400px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.btn-join--salesforce {
+    text-decoration: none;
+    padding: 2px 10px 2px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+// Modules
+
+.modules {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+     h1 {
+         text-align: center;
+         font-weight: bold;
+         padding-bottom: 40px;
+     }
+}
+
+// Subscribe
+
+footer {
+    background-color: $color_principal;
+	color: white;
+	padding: 1em 5%;
+}
+
+
+#links {
+    background-color: $color_principal;
+    color: white;
+    padding: 10px;
+}
+
+.subscribe {
+    background-color: $color_principal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 625px) {
+    .subscribe {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.subscribe form {
+	margin-top: .5em;
+	display: flex;
+	border-radius: .2em;
+	overflow: hidden;
+}
+
+.subscribe input,
+.subscribe button {
+	border: none;
+	padding: .7em 1em;
+	border-radius: 0;
+    max-width: 200px;
+    justify-content: flex-start;
+}
+
+.subscribe input {
+	flex: 1.6;
+}
+
+.subscribe input:focus {
+	outline: none;
+	border: none;
+	color: black;
+}
+
+.subscribe button {
+	flex: .7;
+}
+
+.btnSubs {
+    background-color: $color_highlight;
+    color: $color_principal;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnSubs:hover {
+    background-color: #CEFFFF;
+}
+
+.divLinks {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.subscribeTitle {
+    display: inline-block;
+    font-style: italic;
+    font-size: 30px;
+}
+
+
+.links__List {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.links__Item {
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.links__Item a:hover {
+    color: #97dffc;
+}
+
+
+
+.inputSubscribe {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+
+}
+
+// Social
+
+.social {
+    padding: 40px;
+
+.socialList {
+    filter: invert(100%);
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    color: white;
+    align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .socialList {
+        justify-content: center;
+    }
+}
+
+}

@@ -1,0 +1,118 @@
+$color_principal:#4e148c;
+$color_secondary: #2c0735;
+$color_secondary_2: #858ae3;
+$color_highlight: #97dffc;
+$color_font:$color_principal;
+$color_font: white !default;
+
+a {
+    color: white;
+}
+
+.navigator {
+    background-color: $color_principal;
+}
+
+.logoCode {
+    color: $color_highlight;
+}
+
+.nav-link:hover {
+    color: $color_highlight;
+}
+
+.dropdown-item {
+    color: $color_principal;
+}
+
+.getStarted {
+    color: $color_principal;
+    background-color: $color_highlight;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+// landing front
+
+.text {
+    color: white;
+
+.title__front {
+    color: $color_highlight;
+}
+}
+
+.front {
+    background-color: $color_principal;
+}
+
+.btn-join {
+    background-color: $color_highlight;
+        font-weight: bold;
+        color: $color_principal;
+    }
+
+    // Landing Fullstack
+
+    .title__full {
+        color: $color_secondary;
+    }
+    
+    
+    .full {
+        background-color: $color_secondary_2;
+    }
+
+
+    // Landing Salesforce 
+
+    .title__salesforce {
+        color: $color_principal;
+    }
+    
+    
+    .salesforce {
+        background-color: $color_highlight;
+    }
+
+    .btn-join--salesforce {
+        color: $color_highlight;
+        background-color: $color_principal;
+    } 
+
+    
+    // Modules
+
+    .modules__title {
+        color: $color_principal;
+    }
+
+    .card-header {
+        background-color: $color_principal;
+    
+    .card-link {
+        color: $color_highlight;
+    }
+    
+    .card-link:hover {
+        color: $color_secondary_2;
+    }
+}
+
+        
+// Subscribe
+
+.labelSubscribe {
+    color: $color_principal;
+}
+
+
+// Social
+
+.social {
+    background-color: $color_secondary;
+}
+
+.copyright {
+    color: $color_highlight;
+}

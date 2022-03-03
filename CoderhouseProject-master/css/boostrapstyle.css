@@ -1,0 +1,597 @@
+/* Font import */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body */
+
+/* Nav */
+
+.navigator {
+    background-color: #4e148c;
+    
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.logoCode {
+    color: #97dffc;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #97dffc;
+}
+
+.dropdown-item {
+    color: #4e148c;
+}
+
+.getStarted {
+    color: #4e148c;
+    background-color: #97dffc;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Main */
+
+/* Start */
+
+.start {
+    padding: 50px;
+    background-color: #4e148c;
+}
+
+.text {
+    padding-top: 100px;
+}
+
+@media only screen and (max-width: 800px) {
+    .text {
+        padding-bottom: 60px;
+        padding-top: 20px;
+    }
+}
+
+.title {
+    font-size: 34px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.intro {
+    color: white;
+    
+}
+
+.btn-join {
+    background-color: #97dffc;
+    font-weight: bold;
+    color: #4e148c;
+    text-decoration: none;
+    padding: 2px 10px 2px 10px;
+    border-radius: 5px;
+}
+
+/* About us */
+
+.about {
+    padding: 50px;
+}
+
+.textAbout {
+    padding-top: 100px;
+}
+
+@media only screen and (max-width: 800px) {
+    .textAbout {
+        padding-top:50px;
+    }
+}
+
+.titleAbout {
+    color: #4e148c;
+}
+
+.pAbout {
+    color: #4e148c;
+}
+
+.logo2 {
+    font-weight: bold;
+}
+
+.code2 {
+    font-weight: bold;
+    color: #97dffc;
+}
+
+/* Articles section */
+#courses {
+    background-color: white;
+    color: #4e148c;
+    padding: 70px 100px 70px 100px;
+}
+
+
+.titleDiv {
+    display: flex;
+    justify-content: space-around;
+    gap: 800px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .titleDiv {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+} 
+
+.coursesTitle {
+    font-variant: small-caps;
+    font-size: 35px;
+}
+
+.knowMore {
+    color: #2c0735;
+    text-decoration: none;
+
+}
+
+.knowMore:hover {
+    color: #97dffc;
+}
+
+.articleTitle {
+color: #97dffc;
+font-size: 30px;
+font-variant: small-caps;
+font-weight: bold;
+
+}
+
+.divArticles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+    top: 50px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.articles {
+    max-width: 300px;
+	flex: 1 0 275px;
+	padding: 1.7em 1em;	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
+	box-shadow: 0 10px 20px 5px #858ae3;
+    transition: all 350ms ease;
+	border-radius: .4em;
+}
+
+.articles:hover {
+    transform: scale(1.1);
+}
+
+.artImg1 { 
+    width: 120px;
+}
+
+.artImg2 { 
+    width: 50px;
+}
+
+.artImg3 {
+width: 90px;
+
+}
+
+.articleP {
+    font-size: 12px;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+.articleButton {
+background-color: #4e148c;
+color: white;
+text-decoration: none;
+font-size: 20px;
+font-variant: small-caps;
+font-weight: bolder;
+padding: 5px 30px 5px 30px;
+border-radius: 10px;
+}
+
+.articleButton:hover {
+    background-color: #97dffc;
+    color: #4e148c;
+}
+
+/* Why section */
+
+#why {
+    background-color: white;
+    color: #4e148c;
+    padding: 70px 100px 30px 100px;
+}
+
+#why img {
+	width: 100%;
+	height: auto;
+}
+
+.whyTitle {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.logo3 {
+    color: #4e148c;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.whyDiv {
+	display: flex;
+	flex-direction: column;
+	gap: 3em;
+}
+
+.whyArticle {
+	display: flex;
+		flex-direction: row;
+		flex-wrap: wrap-reverse;
+		align-items: center;
+	justify-content: center;
+		gap: 4em;
+	padding: .5em;
+    box-shadow: 0 10px 20px 5px #97dffc;
+	transition: all 350ms ease;
+	border-radius: .4em;	
+}
+
+.whyArticle:hover {
+        transform: scale(1.1);
+    
+}
+
+.whyArticle:nth-of-type(even) {
+	flex-direction: row-reverse;
+}
+
+.articleTxt {
+	flex: 1 0 375px;
+	max-width: 75ch;
+	display: flex;
+		flex-direction: column;
+		gap: .7em;
+}
+
+.whyDiv p {
+	line-height: 1.9em;
+}	
+.whyDiv li {
+	list-style: none;
+	padding: .3em 0;
+}
+
+.whyImg {
+	flex: 1 1 450px;
+	max-width: 450px;
+}
+
+@media only screen and (max-width: 1024px) {
+	.articleTxt {
+		max-width: 60ch;
+		text-align: center;
+        padding: 20px;
+	}
+}
+
+@media only screen and (max-width: 590px) {
+	.articleTxt p {
+		font-size: 12px;
+		max-width: 60ch;
+		text-align: center;
+        padding: 20px 30px 20px 30px;
+	}
+}
+
+
+/* FAQS */
+
+.faqs {
+    padding-top:70px;
+    padding-bottom: 70px;
+    margin-bottom: 0;
+    background-color: #97dffc;
+}
+
+.faqsTitle {
+    color: #4e148c;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.card-header {
+    background-color: #4e148c;
+}
+
+.card-link {
+    color: #97dffc;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.card-link:hover {
+    color: #858ae3;
+}
+
+/* CONTACT US SECTION */
+
+.form {
+    margin: auto;
+    width: 400%;
+    max-width: 800px;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    margin: 0 0 1rem 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 0.125rem 0.25rem;
+    background-color: white;
+}
+
+.contactTitle {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 30px;
+    margin: 20px;
+}
+
+#contactForm {
+
+    background-color: #858ae3;
+    color: white;
+    margin-top: 0px;
+    padding: 50px;
+}
+
+.formWraper {
+    position: relative;
+    display: grid;
+    height: 100%;
+    margin: 0;
+    place-items: center;
+    max-width: 100%;
+    padding: 2rem;
+
+}
+
+.message {
+    height: 200px;
+}
+
+.buttonSend {
+    padding: 10px 20px 10px 20px;
+    background-color: #2c0735;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-variant: small-caps;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+.buttonSend:hover {
+    background-color: #97dffc;
+}
+
+@media only screen and (max-width: 1024px) {
+    .form{
+        max-width: 400px;
+    }
+
+
+}
+
+@media only screen and (max-width: 412px) {
+    .form{
+        max-width: 300px;
+    }
+
+
+}
+
+/* SUBSCRIBE AND LINKS SECTION */
+
+footer {
+    background-color: #4e148c;
+	color: white;
+	padding: 1em 5%;
+}
+
+
+#links {
+    background-color: #4e148c;
+    color: white;
+    padding: 10px;
+}
+
+.subscribe {
+    background-color: #4e148c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 625px) {
+    .subscribe {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.subscribe form {
+	margin-top: .5em;
+	display: flex;
+	border-radius: .2em;
+	overflow: hidden;
+}
+
+.subscribe input,
+.subscribe button {
+	border: none;
+	padding: .7em 1em;
+	border-radius: 0;
+    max-width: 200px;
+    justify-content: flex-start;
+}
+
+.subscribe input {
+	flex: 1.6;
+}
+
+.subscribe input:focus {
+	outline: none;
+	border: none;
+	color: black;
+}
+
+.subscribe button {
+	flex: .7;
+}
+
+.btnSubs {
+    background-color: #97dffc;
+    color: #4e148c;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnSubs:hover {
+    background-color: #CEFFFF;
+}
+
+.divLinks {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.subscribeTitle {
+    display: inline-block;
+    font-style: italic;
+    font-size: 30px;
+}
+
+
+.linksList {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.linksItem {
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.linksItem a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.linksItem a:hover {
+    color: #97dffc;
+}
+
+
+.labelSubscribe {
+    color: #4e148c;
+}
+
+.inputSubscribe {
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+
+}
+
+
+/* SOCIAL SECTION */
+
+.social {
+    background-color: #2c0735;
+    padding: 40px;
+}
+
+.socialList {
+    filter: invert(100%);
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    color: white;
+    align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .socialList {
+        justify-content: center;
+    }
+}
+

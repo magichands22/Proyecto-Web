@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+a {
+  color: white; }
+
+.navigator {
+  background-color: #4e148c; }
+
+.logoCode {
+  color: #97dffc; }
+
+.nav-link:hover {
+  color: #97dffc; }
+
+.dropdown-item {
+  color: #4e148c; }
+
+.getStarted {
+  color: #4e148c;
+  background-color: #97dffc;
+  border-radius: 5px;
+  font-weight: bold; }
+
+.text {
+  color: white; }
+  .text .title__front {
+    color: #97dffc; }
+
+.intro__salesforce {
+  color: #2c0735;
+}
+
+.front {
+  background-color: #4e148c; }
+
+.btn-join {
+  background-color: #97dffc;
+  font-weight: bold;
+  color: #4e148c; }
+
+.title__full {
+  color: #2c0735; }
+
+.full {
+  background-color: #858ae3; }
+
+.title__salesforce {
+  color: #4e148c; }
+
+.salesforce {
+  background-color: #97dffc; }
+
+.btn-join--salesforce {
+  color: #97dffc;
+  background-color: #4e148c; }
+
+.modules__title {
+  color: #4e148c; }
+
+.card-header {
+  background-color: #4e148c; }
+  .card-header .card-link {
+    color: #97dffc; }
+  .card-header .card-link:hover {
+    color: #858ae3; }
+
+.labelSubscribe {
+  color: #4e148c; }
+
+.social {
+  background-color: #2c0735; }
+
+.copyright {
+  color: #ffffff; }
+
+.logo {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bolder;
+  font-style: italic; }
+
+.logoCode {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bolder;
+  font-style: italic; }
+
+.card-link {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif; }
+
+a {
+  text-decoration: none; }
+
+.front {
+  padding: 50px; }
+
+.text {
+  padding-top: 100px;
+  padding-left: 50px; }
+
+@media only screen and (max-width: 800px) {
+  .text {
+    padding-bottom: 60px;
+    padding-top: 20px; } }
+
+.title__front {
+  font-size: 34px;
+  font-weight: bold;
+  font-style: italic; }
+
+.btn-join {
+  text-decoration: none;
+  padding: 2px 10px 2px 10px;
+  border-radius: 5px; }
+
+.imagen__front {
+  max-height: 400px;
+  padding-left: 150px; }
+
+.full {
+  padding: 50px; }
+
+.title__full {
+  font-size: 34px;
+  font-weight: bold;
+  font-style: italic; }
+
+.imagen__full {
+  max-height: 400px;
+  padding-left: 100px;
+  padding-top: 50px; }
+
+.salesforce {
+  padding: 50px; }
+
+.title__salesforce {
+  font-size: 34px;
+  font-weight: bold;
+  font-style: italic; }
+
+.imagen__salesforce {
+  max-height: 400px;
+  padding-left: 100px;
+  padding-top: 50px; }
+
+.btn-join--salesforce {
+  text-decoration: none;
+  padding: 2px 10px 2px 10px;
+  border-radius: 5px;
+  font-weight: bold; }
+
+.modules {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+  .modules h1 {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 40px; }
+
+footer {
+  background-color: #4e148c;
+  color: white;
+  padding: 1em 5%; }
+
+#links {
+  background-color: #4e148c;
+  color: white;
+  padding: 10px; }
+
+.subscribe {
+  background-color: #4e148c;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding-bottom: 40px;
+  padding-top: 20px; }
+
+@media only screen and (max-width: 625px) {
+  .subscribe {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center; } }
+
+.subscribe form {
+  margin-top: .5em;
+  display: flex;
+  border-radius: .2em;
+  overflow: hidden; }
+
+.subscribe input,
+.subscribe button {
+  border: none;
+  padding: .7em 1em;
+  border-radius: 0;
+  max-width: 200px;
+  justify-content: flex-start; }
+
+.subscribe input {
+  flex: 1.6; }
+
+.subscribe input:focus {
+  outline: none;
+  border: none;
+  color: black; }
+
+.subscribe button {
+  flex: .7; }
+
+.btnSubs {
+  background-color: #97dffc;
+  color: #4e148c;
+  font-weight: bold;
+  cursor: pointer; }
+
+.btnSubs:hover {
+  background-color: #CEFFFF; }
+
+.divLinks {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+
+.subscribeTitle {
+  display: inline-block;
+  font-style: italic;
+  font-size: 30px; }
+
+.links__List {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block; }
+
+.links__Item {
+  font-size: 12px;
+  text-decoration: none;
+  display: block; }
+
+.links__Item a:hover {
+  color: #97dffc; }
+
+.inputSubscribe {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 20px;
+  border-radius: 5px 0 0 5px; }
+
+.social {
+  padding: 40px; }
+  .social .socialList {
+    filter: invert(100%);
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    color: white;
+    align-items: center; }
+  @media only screen and (max-width: 500px) {
+    .social .socialList {
+      justify-content: center; } }
